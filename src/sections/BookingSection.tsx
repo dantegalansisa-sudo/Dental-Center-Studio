@@ -15,11 +15,11 @@ const serviceOptions = [
 ];
 
 const infoItems = [
-  { icon: '📍', label: 'Dirección', value: 'Plaza Lia, Naco, Santo Domingo' },
-  { icon: '📞', label: 'Teléfono', value: 'Agenda tu cita' },
-  { icon: '⏰', label: 'Horario', value: 'Lun - Vie: 9:00 AM - 6:00 PM | Sáb: 9:00 AM - 2:00 PM' },
+  { icon: '📍', label: 'Dirección', value: 'Av. Rómulo Betancourt 1372, 2do nivel, Ensanche Bella Vista, DN' },
+  { icon: '📞', label: 'Teléfono', value: '(consultar)' },
+  { icon: '⏰', label: 'Horario', value: 'L-V 9AM-6PM | Sáb 9AM-12PM' },
   { icon: '💬', label: 'WhatsApp', value: 'WhatsApp Directo' },
-  { icon: '✉️', label: 'Instagram', value: '@drothon_boutiquedental' },
+  { icon: '✉️', label: 'Instagram', value: '@dentalcenterstudio' },
 ];
 
 const containerVariants = {
@@ -143,7 +143,7 @@ function CalendarWidget() {
           type="button"
           onClick={() =>
             window.open(
-              'https://wa.me/message/HL77R3SXVOVRK1',
+              'https://wa.me/18090000000',
               '_blank',
             )
           }
@@ -164,7 +164,7 @@ export default function BookingSection() {
 
   const handleSubmit = (e: FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    window.open('https://wa.me/message/HL77R3SXVOVRK1', '_blank');
+    window.open('https://wa.me/18090000000', '_blank');
     setSent(true);
     setTimeout(() => setSent(false), 4000);
   };

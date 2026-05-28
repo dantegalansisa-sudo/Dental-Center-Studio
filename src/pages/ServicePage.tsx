@@ -94,7 +94,7 @@ export default function ServicePage() {
                 <h3 className="sp__cta-title">¿Te interesa este tratamiento?</h3>
                 <p className="sp__cta-desc">Agenda tu consulta de evaluación y recibe un plan personalizado.</p>
                 <a
-                  href="https://wa.me/message/HL77R3SXVOVRK1"
+                  href="https://wa.me/18090000000"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="sp__cta-btn"

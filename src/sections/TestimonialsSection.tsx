@@ -136,7 +136,7 @@ export default function TestimonialsSection() {
             >
               <p className="testi__featured-text">&ldquo;{currentFeatured.text}&rdquo;</p>
               <div className="testi__featured-author">
-                <img src={currentFeatured.avatar} alt={currentFeatured.name} className="testi__featured-avatar" />
+                <div className="testi__featured-avatar" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--accent)', color: '#fff', fontFamily: 'var(--font-brutal)', fontSize: '18px', borderRadius: '50%', width: '48px', height: '48px', flexShrink: 0 }}>D</div>
                 <div>
                   <span className="testi__featured-name">{currentFeatured.name}</span>
                   <span className="testi__featured-treatment">{currentFeatured.treatment}</span>
@@ -178,7 +178,7 @@ export default function TestimonialsSection() {
               <div className="testi__card-rating">{'★'.repeat(t.rating)}</div>
               <p className="testi__card-text">&ldquo;{t.text}&rdquo;</p>
               <div className="testi__card-author">
-                <img src={t.avatar} alt={t.name} className="testi__card-avatar" />
+                <div className="testi__card-avatar" style={{ display: 'flex', alignItems: 'center', justifyContent: 'center', background: 'var(--accent)', color: '#fff', fontFamily: 'var(--font-brutal)', fontSize: '14px', borderRadius: '50%', width: '40px', height: '40px', flexShrink: 0 }}>D</div>
                 <div>
                   <span className="testi__card-name">{t.name}</span>
                   <span className="testi__card-treatment">{t.treatment}</span>

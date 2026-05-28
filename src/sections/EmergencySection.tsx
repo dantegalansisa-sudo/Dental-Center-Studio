@@ -77,7 +77,7 @@ export default function EmergencySection() {
             </motion.a>
 
             <a
-              href="https://wa.me/message/HL77R3SXVOVRK1"
+              href="https://wa.me/18090000000"
               target="_blank"
               rel="noopener noreferrer"
               className="emergency__whatsapp"

@@ -2,12 +2,12 @@ import { motion } from 'framer-motion';
 import RevealText from '../components/RevealText';
 
 const galleryImages = [
-  { src: '/imagenes/drothon/instalacion-1.png', alt: 'Recepción', label: 'Recepción' },
-  { src: '/imagenes/drothon/instalacion-2.png', alt: 'Consultorio', label: 'Consultorio' },
-  { src: '/imagenes/drothon/instalacion-3.png', alt: 'Área de Trabajo', label: 'Área de Trabajo' },
-  { src: '/imagenes/drothon/instalacion-4.png', alt: 'Equipamiento', label: 'Equipamiento' },
-  { src: '/imagenes/drothon/instalacion-5.png', alt: 'Sala Clínica', label: 'Sala Clínica' },
-  { src: '/imagenes/drothon/instalacion-6.png', alt: 'Exterior', label: 'Exterior' },
+  { src: '/imagenes/dentalstudio/logo.png', alt: 'Recepción', label: 'Recepción' },
+  { src: '/imagenes/dentalstudio/logo.png', alt: 'Consultorio', label: 'Consultorio' },
+  { src: '/imagenes/dentalstudio/logo.png', alt: 'Área de Trabajo', label: 'Área de Trabajo' },
+  { src: '/imagenes/dentalstudio/logo.png', alt: 'Equipamiento', label: 'Equipamiento' },
+  { src: '/imagenes/dentalstudio/logo.png', alt: 'Sala Clínica', label: 'Sala Clínica' },
+  { src: '/imagenes/dentalstudio/logo.png', alt: 'Exterior', label: 'Exterior' },
 ];
 
 const containerVariants = {

@@ -94,7 +94,7 @@ export default function BlogPage() {
                 <h3 className="bp__cta-title">¿Necesitas una consulta?</h3>
                 <p className="bp__cta-desc">Nuestro equipo está listo para ayudarte. Agenda tu cita hoy.</p>
                 <a
-                  href="https://wa.me/message/HL77R3SXVOVRK1"
+                  href="https://wa.me/18090000000"
                   target="_blank"
                   rel="noopener noreferrer"
                   className="bp__cta-btn"
